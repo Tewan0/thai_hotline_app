@@ -2,7 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:thai_hotline_app/view/about_ui.dart';
 import 'package:thai_hotline_app/view/home_ui.dart';
+import 'package:thai_hotline_app/view/introduction_call_ui.dart';
 
 void main() {
   runApp(ThaiHotlineApp());
@@ -21,9 +23,9 @@ class _ThaiHotlineAppState extends State<ThaiHotlineApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomeUI(),
-      // theme: ThemeData(
-      //   textTheme: GoogleFonts.promptTextTheme(),
-      // ),
+      theme: ThemeData(
+        textTheme: GoogleFonts.baiJamjureeTextTheme(),
+      ),
     );
   }
 }
