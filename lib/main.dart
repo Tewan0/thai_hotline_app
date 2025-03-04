@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:introduction_screen/introduction_screen.dart';
 import 'package:thai_hotline_app/view/about_ui.dart';
 import 'package:thai_hotline_app/view/home_ui.dart';
 import 'package:thai_hotline_app/view/introduction_call_ui.dart';
@@ -22,7 +23,7 @@ class _ThaiHotlineAppState extends State<ThaiHotlineApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeUI(),
+      home: IntroductionCallUI(),
       theme: ThemeData(
         textTheme: GoogleFonts.baiJamjureeTextTheme(),
       ),

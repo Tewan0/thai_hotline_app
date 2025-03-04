@@ -1,6 +1,8 @@
 // ignore_for_file: prefer_const_constructors, avoid_unnecessary_containers, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
+import 'package:thai_hotline_app/view/home_ui.dart';
+import 'package:thai_hotline_app/view/sub_a_home_ui.dart';
 
 class SubAIntroductionCallUI extends StatefulWidget {
   const SubAIntroductionCallUI({super.key});
@@ -35,15 +37,12 @@ class _SubAIntroductionCallUIState extends State<SubAIntroductionCallUI> {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              InkWell(
-                onTap: () {},
-                child: Text(
-                  'โทรเลย!!!',
-                  style: TextStyle(
-                    color: Colors.red,
-                    fontSize: 22,
-                    fontWeight: FontWeight.bold,
-                  ),
+              Text(
+                'โทรเลย!!!',
+                style: TextStyle(
+                  color: Colors.red,
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
             ],
