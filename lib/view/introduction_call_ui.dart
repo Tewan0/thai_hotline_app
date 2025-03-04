@@ -66,9 +66,17 @@ class _IntroductionCallUIState extends State<IntroductionCallUI> {
         ),
       ),
       onDone: () => Navigator.push(
-          context, MaterialPageRoute(builder: (context) => HomeUI())),
+        context,
+        MaterialPageRoute(
+          builder: (context) => HomeUI(),
+        ),
+      ),
       onSkip: () => Navigator.push(
-          context, MaterialPageRoute(builder: (context) => HomeUI())),
+        context,
+        MaterialPageRoute(
+          builder: (context) => HomeUI(),
+        ),
+      ),
     );
   }
 }

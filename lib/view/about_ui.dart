@@ -13,6 +13,7 @@ class _AboutUIState extends State<AboutUI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.purple[50],
       appBar: AppBar(
         backgroundColor: Colors.purple,
         centerTitle: true,
@@ -20,7 +21,7 @@ class _AboutUIState extends State<AboutUI> {
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back_ios_new,
-            color: Colors.white,
+            color: Colors.black,
             size: 30,
           ),
           onPressed: () {

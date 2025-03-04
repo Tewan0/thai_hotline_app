@@ -73,7 +73,6 @@ class _HomeUIState extends State<HomeUI> {
         items: [
           SalomonBottomBarItem(
             selectedColor: Colors.blue,
-            unselectedColor: Colors.grey,
             icon: Icon(FontAwesomeIcons.car),
             title: Text(
               'การเดินทาง',
