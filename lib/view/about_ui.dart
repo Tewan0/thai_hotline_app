@@ -55,6 +55,7 @@ class _AboutUIState extends State<AboutUI> {
               ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.02),
               Container(
+                color: Colors.purple[100],
                 child: Image.asset(
                   'assets/images/logo_sau.png',
                   width: 200,
